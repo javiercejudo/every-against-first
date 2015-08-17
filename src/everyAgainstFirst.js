@@ -1,6 +1,7 @@
 'use strict';
 
-module.exports = function everyAgainstFirst(array, callback, thisArg) {
+module.exports = function everyAgainstFirst(origArray, callback, thisArg) {
+  var array = origArray.slice();
   var first = array.shift();
 
   return array.every(function (current, index) {
