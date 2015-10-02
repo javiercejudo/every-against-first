@@ -15,7 +15,8 @@ Test every element in array against the first
 ```js
 var everyAgainstFirst = require('every-against-first');
 
-
+everyAgainstFirst([5, 7, 10], fixtures.isAscendingPair); // => true
+everyAgainstFirst([5, 7, 4], fixtures.isAscendingPair); // => false
 ```
 
 See more examples of [fixture callbacks](fixtures/callbacks.js).
