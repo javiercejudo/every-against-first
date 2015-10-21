@@ -1,6 +1,6 @@
 {
   "name": "every-against-first",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Test every element in array against the first",
   "main": "src/everyAgainstFirst.js",
   "scripts": {
